@@ -275,7 +275,6 @@ async function readData() {
         console.error('User not authenticated');
         return Promise.reject('User not authenticated');
     }
-
     const querySnapshot = await getDocs(collection(firestore, `users/${uid}/commodities`));
     const result = [];
     querySnapshot.forEach((doc) => {
