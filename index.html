@@ -20,7 +20,7 @@
 
     body {
       transform: scale(0.8); 
-      transform-origin: top left; 
+      transform-origin: top center; 
       justify-content: space-around;
       margin: 0;
       padding: 40px;
@@ -87,7 +87,7 @@
       align-items: center;
       width: 100%;
       margin-left: 0px;
-      font-size: 1.8vw;
+      font-size: 1.9vw;
     }
 
     .card-table tbody {
@@ -96,12 +96,12 @@
     }
 
     .card-table tr {
-      background-color: #f9f9f9;
+      background-color: #363535;
       /* Light gray background for odd rows */
     }
 
     .card-table tbody tr:nth-child(even) {
-      background-color: #e6e6e6;
+      background-color: #191919;
       /* Dark gray background for even rows */
     }
 
@@ -109,7 +109,7 @@
 
     .card-table th {
       background-color: #C89D5B;
-      color: white;
+      color: rgb(0, 0, 0);
     }
 
     /* .card-table tbody td {} */
@@ -122,7 +122,7 @@
 
     .card-table td {
       font-weight: bold;
-      color: #C89D5B;
+      color: #D4AF37;
     }
 
     .silver-table td {
@@ -131,7 +131,7 @@
 
     /* Hover effect for better user experience */
     .card-table tbody tr:hover {
-      background-color: #d3d3d3;
+      background-color: #393939;
       /* Lighter gray on hover */
     }
 
@@ -253,16 +253,16 @@
       <div class="rows "
         style="display: flex; flex-direction: column; background-color: #C89D5B; padding: 15px 40px; text-align: center;">
         <div style="display: flex; flex-direction: row; justify-content: space-between;">
-          <div class="div1" style="font-size: 1.7vw; font-weight: 600; color: #fff;">SPOT RATE</div>
+          <div class="div1" style="font-size: 1.7vw; font-weight: 600; color: #000000;">SPOT RATE</div>
           <div class="div2" style="display: flex; flex-direction: row;">
-            <p style="font-size: 30px; font-weight: 600; color: #fff; margin-top: 8px;">BID</p>
+            <p style="font-size: 30px; font-weight: 600; color: #000000; margin-top: 8px;">BID</p>
             <div
               style="background-color: black;height: 32px;width: 32px;  border: none;border-radius: 50%;display: flex;justify-content: center;align-items: center; margin-top: 10px;">
               <i class="fa-solid fa-dollar-sign" style="color: white;"></i>
             </div>
           </div>
           <div class="div3" style="display: flex; flex-direction: row;">
-            <p style="font-size: 30px; font-weight: 600; color: #fff; margin-top: 8px;">ASK</p>
+            <p style="font-size: 30px; font-weight: 600; color: #000000; margin-top: 8px;">ASK</p>
             <div
               style="background-color: black;height: 32px;width: 32px; border: none;border-radius: 50%;display: flex;justify-content: center;align-items: center; margin-top: 10px;">
               <i class="fa-solid fa-dollar-sign" style="color: white;"></i>
@@ -345,7 +345,7 @@
 
 
 
-  <div class="row container-3d" style="margin-top: 10px;">
+  <div class="row container-3d">
     <div class="col-lg-12 news-card" style="margin-left: 64px; max-width: 95%;">
       <div class="news-label">
         <h3>AIBAK GOLD & DIAMONDS</h3>
